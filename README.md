@@ -1,7 +1,7 @@
 # calculadoraImc
 calculadora IMC
 
-TECNOLOGIA:/n
+TECNOLOGIA:
 -HTML/CSS
 -JAVASCRIPT:
 .LÓGICA DE PROGRAMAÇÃO
