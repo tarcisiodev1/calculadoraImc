@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js" type="module" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Calculadora <strong>IMC</strong></h1>
+      <form id="formIMC">
+        <input
+          type="number"
+          step="0.01"
+          name="peso"
+          placeholder="Entre com o peso..."
+        />
+        <input
+          type="number"
+          step="0.01"
+          name="altura"
+          placeholder="Entre com a altura..."
+        />
+        <button type="submit">Calcular</button>
+        <div id="resultado" class="fade-in"></div>
+      </form>
+      <button id="btnHistory">&#128336; Histórico</button>
+      <div id="history" class="fade-in"></div>
+    </main>
+  </body>
+</html>
